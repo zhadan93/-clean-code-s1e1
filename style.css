@@ -4,15 +4,18 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .header__img {
   width: 100%;
 }
+
 .header__more-info {
   font-family: fantasy, cursive;
 }
@@ -24,23 +27,28 @@
   }
 
 }
+
 .main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .name {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
+
 .adding-task__row {
   display: flex;
 }
+
 .tasks__list {
   margin: 0;
   padding: 0px;
 }
+
 .btn {
   background: none;
   border: 0px;
@@ -51,9 +59,11 @@
   cursor: pointer;
   outline: none;
 }
+
 .btn:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
 .title {
   color: #333;
@@ -64,6 +74,7 @@
   margin: 0;
   text-transform: uppercase;
 }
+
 .input {
   margin: 0;
   font-size: 18px;
@@ -77,6 +88,7 @@
   color: #888;
   outline: none;
 }
+
 .input:focus {
   color: #333;
 }
@@ -86,6 +98,7 @@
   display: block;
   margin: 0 0 20px;
 }
+
 .input_size_b {
   width: 318px;
 }
@@ -106,6 +119,7 @@
 .tasks__checkbox {
   margin: 0 10px;
 }
+
 .tasks__label {
   padding-left: 10px;
   box-sizing: border-box;
@@ -118,6 +132,7 @@
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .btn__remove-img:hover {
   transform: rotateZ(0);
 }
